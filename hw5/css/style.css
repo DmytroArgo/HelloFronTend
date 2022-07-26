@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*header*/
+.container{
+    padding-top: 20px;
+    max-width: 970px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    
+}
+header .header__navigation ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    list-style: none;
+}
+.section{
+    padding-top: 20px;
+    max-width: 970px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
