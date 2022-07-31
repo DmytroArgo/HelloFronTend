@@ -3,110 +3,140 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/hw5/css/reset.css">
+    <link rel="stylesheet" href="/hw5/css/normalize.css">
     <link rel="stylesheet" href="/hw5/css/style.css">
     <title>hw5</title>
 </head>
 <body>
-    <header class="container">
-            <div class="header__navigation">
+    <header >
+        <section class="container">
+            <div class="header__navigation ">
                 <nav>
                     <ul>
-                        <li>Home</li>
-                        <li>About me</li>
-                        <li>Skills</li>
-                        <li>Portfolio</li>
-                        <li>Contacts</li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#About">About me</a></li>
+                        <li><a href="#Skills">Skills</a></li>
+                        <li><a href="#Portfolio">Portfolio</a></li>
+                        <li><a href="#Contacts">Contacts</a></li>
                     </ul>
                 </nav>
             </div>
+            <hr class="header__line">
             <h1 class="header__title">Denis Novik</h1>
             <div class="header__logo">
                 <img src="/hw5/image/BSPP2266x940.jpg" alt="header photo">
             </div>
+        </section>      
     </header>
     <main>
-        <section class=" section section__about">
+        <section class="section__about container" id="About">
             <div class="about">
-                <h2 class="about__heading">About me</h2>
+                <h2 class="title__heading">About me</h2>
             </div>
             <div class="about_text">
-                <p>Hi, I'm Denis – UX/UI designer from Minsk.<br>
+                <p class="subtitle">Hi, I'm Denis – UX/UI designer from Minsk.<br>
                     I'm interested in design and everything connected with it.</p>
-                <p>I'm studying at courses "Web and mobile design<br>
+                <p class="subtitle">I'm studying at courses "Web and mobile design<br>
                     interfaces" in IT-Academy.</p>
-                <p>Ready to implement excellent projects<br>
+                <p class="subtitle">Ready to implement excellent projects<br>
                     with wonderful people.</p>
             </div>
         </section>
-        <section class="section section__skils">
+        <section class="section__skills container" id="Skills">
             <div class="skills_title">
-                <h2>Skills</h2>
-                <span class="subtitle">I work in such programs as</span>
+                <h2 class="title__heading" >Skills</h2>
+                <p class="subtitle">I work in such programs as</p>
             </div>
             <div class="skills__items">
                 <div class="skills__item">
-                    <img src="" alt="">
-                    <span></span>
-                    <span></span>
+                    <img src="/hw5/image/Ps.jpg" alt="">
+                    <p>Adobe Photoshop</p>
+                    <div class="skills__star">
+                        <img src="/hw5/image/star-icon.jpg" alt="">
+                        <img src="/hw5/image/star-icon.jpg" alt="">
+                        <img src="/hw5/image/star-icon.jpg" alt="">
+                        <img src="/hw5/image/star-icon.jpg" alt="">
+                        <img src="/hw5/image/star-icon.jpg" alt="">
+                    </div>
                 </div>
                 <div class="skill__item">
-                    <img src="" alt="">
-                    <span></span>
-                    <span></span>
+                    <img src="/hw5/image/Ai.jpg" alt="">
+                    <p>Adobe Illustrator</p>
+                    <div class="skills__star">
+                        <img src="/hw5/image/star-icon.jpg" alt="">
+                        <img src="/hw5/image/star-icon.jpg" alt="">
+                        <img src="/hw5/image/star-icon.jpg" alt="">
+                        <img src="/hw5/image/star-icon.jpg" alt="">
+                        <img src="/hw5/image/star-icon.jpg" alt="">
+                    </div>
                 </div>
                 <div class="skill__item">
-                    <img src="" alt="">
-                    <span></span>
-                    <span></span>
+                    <img src="/hw5/image/Ae.jpg" alt="">
+                    <p>Adobe After Effects</p>
+                    <div class="skills__star">
+                        <img src="/hw5/image/star-icon.jpg" alt="">
+                        <img src="/hw5/image/star-icon.jpg" alt="">
+                        <img src="/hw5/image/star-icon.jpg" alt="">
+                        <img src="/hw5/image/star-icon.jpg" alt="">
+                        <img src="/hw5/image/star-icon.jpg" alt="">
+                    </div>
                 </div>
                 <div class="skill__item">
-                    <img src="" alt="">
-                    <span></span>
-                    <span></span>
+                    <img src="/hw5/image/Figma.jpg" alt="">
+                    <p>Figma</p>
+                    <div class="skills__star">
+                        <img src="/hw5/image/star-icon.jpg" alt="">
+                        <img src="/hw5/image/star-icon.jpg" alt="">
+                        <img src="/hw5/image/star-icon.jpg" alt="">
+                        <img src="/hw5/image/star-icon.jpg" alt="">
+                        <img src="/hw5/image/star-icon.jpg" alt="">
+                    </div>
                 </div> 
             </div>
         </section>
-        <section class="portfolio section">
+        <section class="portfolio container" id="Portfolio">
             <div class="portfolio__title">
+                <h2 class="title__heading">Portfolio</h2>
                 <img src="/hw5/image/Слой 8.jpg" alt="">
             </div>
-            <div class="portfolio__image"></div>
-            <div class="portfolio subtitle">
-                <span class="subtitle">Online fashion store - Homepage</span>
+            <div class="signature__link">
+                <a href="#" class="subtitle">Online fashion store - <br> Homepage</a>
             </div>
                    
             <div class="reebok__image">
                 <img src="/hw5/image/reebok_web.jpg" alt="">
             </div>
-            <div class="subtitle">
-                <span class="subtitle">Reebok Store - Concept</span>
+            <div class="signature__link">
+                <a href="#" class="subtitle">Reebok Store - Concept</a>
             </div>
             <div class="reebok__image">
                 <img src="/hw5/image/reebok_web (1).jpg" alt="">
             </div>
-            <div class="subtitle">
-                <span class="subtitle">Braun Landing Page - Concept</span>
+            <div class="signature__link">
+                <a href="#" class="subtitle">Braun Landing Page - Concept</a>
             </div>
         </section>
         
     <footer class="container">
-        <section class="contacts section">
+        <section class="contacts container" id="Contacts">
             <div class="contacts__title">
-             <h2>Contacts</h2>
-             <span class="subtitle">Want to know more or just chat? 
-                 You are welcome!</span>
+             <h2 class="title__heading">Contacts</h2>
+             <p class="subtitle">Want to know more or just chat? <br>
+                 You are welcome!</p>
+            </div>
+            <div class="send__button">
+                <button>Send Message</button>  
             </div> 
-            <button>Send Message</button>
-            <div class="cotacts__icons">
+            <div class="contacts__icons">
              <img src="/hw5/image/linkedin.jpg" alt="">
              <img src="/hw5/image/Vector (4).jpg" alt="">
              <img src="/hw5/image/behance.jpg" alt="">
              <img src="/hw5/image/Vector.jpg" alt="">
             </div>
             <div class="contacts__text">
-             <span>Like me on</span>
-             <span>LinkedIn, Instagram, Behance,</span>
-             <span>Dribble</span>
+                <p>Like me on <br>
+                    LinkedIn, Instagram, Behance,<br> Dribble</p>
             </div>
          </section>
     </footer>

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -6,30 +7,147 @@
 
 /*header*/
 .container{
-    padding-top: 20px;
-    max-width: 970px;
-    width: 100%;
-    height: auto;
-    margin: 0 auto;
-    
-}
-header .header__navigation ul{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 15px;
-    list-style: none;
-}
-.section{
-    padding-top: 20px;
-    max-width: 970px;
-    width: 100%;
+    width: 970px;
     height: auto;
     margin: 0 auto;
 }
-.section{
+.header__navigation{
+    margin-top: 27.5px;
+}
+.header__navigation nav ul{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    gap: 40px;  
 }
+.header__navigation nav ul a{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 18;
+    line-height: 24.51px;
+    text-decoration: none;
+    letter-spacing: 0.2px;
+    color:#828282 ;
+}
+header .header__line{
+    width:970px ;
+    height: 1px;
+    background-color: #828282;
+    margin-top: 27.5px;
+}
+header .header__title{
+    margin-top: 12px;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65.37px;
+    color:#070707;
+}
+header .header__logo{
+    margin-top: 50px;
+}
+header .header__logo img{
+    width: 100%;
+    height: auto;
+}
+.section__about{
+    margin-top: 100px;
+}
+.title__heading{
+    font-family: 'Open Sans';
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 46.3px;
+    text-align: center;
+    color: #070707;
+}
+.section__about .about_text{
+    margin-top: 50px; 
+}
+.subtitle{
+    text-align: center;
+    padding-bottom: 30px;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.51px;
+    color: #070707;
+}
+.section__skills{
+    margin-top: 200px;  
+}
+.skills__items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+.portfolio{
+    margin-top: 201px;
+}
+.portfolio img{
+    margin-top: 50px;
+}
+.signature__link{
+    text-align: center;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    line-height: 24.51px;
+    font-weight: 400;
+    color: #070707;
+}
+.portfolio__title{
+    margin-bottom: 40px ;
+}
+.reebok__image{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+footer .contacts{
+    margin-top: 200px;
+}
+.send__button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contacts__icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.contacts__icons img{
+    padding-right: 50px;
+}
+
+footer .contacts button{
+    width: 180px;
+    height: 44px;
+    background-color: #070707;
+    border-radius: 22px;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24.51px;
+    letter-spacing: 10%;  
+}
+.contacts__text{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.contacts__text p{
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 19.07px;
+    color: #828282;
+}
+.contacts__title h2{
+    margin-bottom: 20px;
+}
+
+
